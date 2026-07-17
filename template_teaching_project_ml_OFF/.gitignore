@@ -7,3 +7,10 @@ en.openfoodfacts.org.products.csv
 .idea
 .vscode
 .coverage
+
+# Ignorer tout le contenu du dossier data
+data/*
+
+# Mais garder la structure des sous-dossiers (optionnel mais utile)
+!data/raw/.gitkeep
+!data/processed/.gitkeep
